@@ -62,4 +62,4 @@ if ans == "yes":
         print("And the first number raised to the second number is:\n",numexponent)
     
 elif ans == "no":
-        print("you are a liar")
+        print("liar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar")
