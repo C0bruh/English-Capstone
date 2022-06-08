@@ -63,10 +63,10 @@ if ans == "yes":
         ans3 = str(input())
         if ans3 == "yes":
             print("have you ever listened to porter robinson etc\nexplanation quote etc")
-            print("nOW tell m e {}, is loneliness like this?".fomat(name))
+            print("nOW tell m e {}, is loneliness like this?".format(name))
         elif ans3 == "no":
             print("porter robinson quote explanation etc")
-            print("nOW tell m e {}, is loneliness like this?".fomat(name))
+            print("nOW tell m e {}, is loneliness like this?".format(name))
 
     if ans2 == "no":
         pass
@@ -80,10 +80,10 @@ elif ans == "no":
         jmpans = str(input())
         if jmpans == "yes":
             print("evidence quote etc")
-            print("nOW tell m e {},  is loneliness like this?".fomat(name))
+            print("nOW tell m e {},  is loneliness like this?".format(name))
         elif jmpans == "no":
             print("evidence quote etc")
-            print("nOW tell m e {},  is loneliness like this?".fomat(name))
+            print("nOW tell m e {},  is loneliness like this?".format(name))
 
 answerjmp = input()
 if ans == "yes":
