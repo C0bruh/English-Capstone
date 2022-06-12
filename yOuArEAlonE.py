@@ -9,21 +9,13 @@ ans = input()
 
 if ans == "yes":
     
-    print("\n\n\n\n\n\n\n\n\n\n\n\n")
-
-
-    print("BuT")
-    print("i aM hERe talking to you\nyet you still feel alone?")
-    print("**input yes if you agree, no if not**")
+    print("\n\n\n\n\n\n\n\n\n\n\n\nBuT\ni aM hERe talking to you\nyet you still feel alone?\n**input yes if you agree, no if not**")
 
     ans2 = input()
     if ans2 == "yes":
         
-        print("\n\n\n\n\n\n\n\n\n\n\n\n")
-
-
-        print("i CaN Do mAtH!")
-        print("gIVe mE a nuMBeR!")
+        print("\n\n\n\n\n\n\n\n\n\n\n\ni CaN Do mAtH!\ngIVe mE a nuMBeR!")
+        
         num1 = float(input())
         print("GIvE me another number!")
         num2 = float(input())
@@ -57,23 +49,15 @@ if ans == "yes":
 
         
         
-
-        
         print("\ni guess it is always just you and your thoughts\nonly you are with yourself 24/7\nhumans think love can fill the void\nit cant\nnothing can\nfor you will always be alone")
         print("\n do you agree?")
 
         ans3 = str(input())
-        if ans3 == "yes":
-            print("have you ever listened to porter robinson etc\nexplanation quote etc")
-            print("nOW tell m e {}, is loneliness like this?".format(name))
-        elif ans3 == "no":
-            print("porter robinson quote explanation etc")
-            print("nOW tell m e {}, is loneliness like this?".format(name))
+        print("have you ever listened to porter robinson etc\nexplanation quote etc")
+        print("nOW tell m e {}, is loneliness like this?".format(name))
 
     if ans2 == "no":
         pass
-
-
 
 
 elif ans == "no":
@@ -85,9 +69,13 @@ elif ans == "no":
             print("nOW tell m e {},  is loneliness like this?".format(name))
         elif jmpans == "no":
             print("evidence quote etc")
+            print("nOW tell m e {},  is loneliness like this?".format(name))
 
-answerjmp = input()
-if ans == "yes":
-    pass
-else:
+
+answercrown = input()
+print("\nI have a few more questions for you {}".format(name)+"\n\nWhile I was researching my database for information about loneliness, I listened to Kendricks new album. There is a song called, 'Crown'. I found that a lot of ... evidence etc")
+answercrown2 = input()
+if answercrown2 == "":
+    print("there was another song that came about... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.")
+    print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
     pass
