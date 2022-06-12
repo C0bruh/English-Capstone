@@ -31,6 +31,8 @@ if ans == "yes":
             numaddition = num1 + num2
             nummultiplication = num1 * num2
             numexponent = num1 ** num2
+
+
             print("\n\n\n\n\n\n\n\n\n\n\n\n")
 
             print("The addition of these two equations is:\n",numaddition)
@@ -83,7 +85,6 @@ elif ans == "no":
             print("nOW tell m e {},  is loneliness like this?".format(name))
         elif jmpans == "no":
             print("evidence quote etc")
-            print("nOW tell m e {},  is loneliness like this?".format(name))
 
 answerjmp = input()
 if ans == "yes":
