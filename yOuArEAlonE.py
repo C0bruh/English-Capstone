@@ -66,10 +66,10 @@ elif ans == "no":
         jmpans = str(input())
         if jmpans == "yes":
             print("evidence quote etc")
-            print("nOW tell m e {},  is loneliness like this?".format(name))
+            print("nOW tell m e {},  do you think loneliness like this?".format(name))
         elif jmpans == "no":
             print("evidence quote etc")
-            print("nOW tell m e {},  is loneliness like this?".format(name))
+            print("nOW tell m e {},  do you think loneliness is like this?".format(name))
 
 
 answercrown = input()
