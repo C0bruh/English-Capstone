@@ -57,7 +57,7 @@ if ans == "yes":
         print("nOW tell m e {}, is loneliness like this?".format(name))
 
     if ans2 == "no":
-        pass
+        print("Even if I am a computer, you feel as if you are talking to a human? I was programmed to say these characters in a fashion that would make sense to you.")
 
 
 elif ans == "no":
@@ -75,7 +75,6 @@ elif ans == "no":
 answercrown = input()
 print("\nI have a few more questions for you {}".format(name)+"\n\nWhile I was researching my database for information about loneliness, I listened to Kendricks new album. There is a song called, 'Crown'. I found that a lot of ... evidence etc")
 answercrown2 = input()
-if answercrown2 == "":
-    print("there was another song that came about... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.")
-    print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
-    pass
+print("there was another song that came about {}... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.".format(name))
+print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
+pass
