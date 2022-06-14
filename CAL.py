@@ -1,9 +1,24 @@
 #Nathaniel Factor English Capstone
+import time
+  
+# define the countdown func.
+def countdown(t):
+    
+    while t:
+        mins, secs = divmod(t, 60)
+        timer = '{:02d}:{:02d}'.format(mins, secs)
+        print(timer, end="\r")
+        time.sleep(1)
+        t -= 1
+      
+    print('0███████████████████100%')
+  
+t = int(5)
+countdown(int(t))
 
-
-print("Hello...\nmy name is CAL\nWhat is your name?")
+print("Hello...\nmy name is CAL, I have a wide variety of information regarding AI and what humans call 'loneliness'\nWhat is your name?")
 name = input()
-print("Well {}, recently I've been wondering, have you ever felt alone?".format(name))
+print("Well {}, would you like".format(name))
 print("**input yes or no**")
 ans = input()
 
@@ -78,3 +93,10 @@ answercrown2 = input()
 print("there was another song that came about {}... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.".format(name))
 print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
 pass
+
+print("\n\n\n\n\nAre you done talking to me?")
+finishedans = input()
+if finishedans == "yes":
+    pass
+elif finishedans == "no":
+    pass
