@@ -16,6 +16,11 @@ def countdown(t):
 t = int(5)
 countdown(int(t))
 
+def wait():
+    time.sleep(3)
+
+
+
 print("Hello...\nmy name is CAL, I have a wide variety of information regarding AI and what humans call 'loneliness'\nWhat is your name?")
 name = input()
 print("Well {}, would you like to listen to my studies?".format(name))
@@ -40,10 +45,14 @@ if ans == "yes":
             numexponent = num1 ** num2
             
             print("\n\n\n\n\n\n\n\n\n\n\n\n")
-            print("The addition of these two equations is:",numaddition)
-            print("And the multiplication is:\n",nummultiplication)
-            print("And the first number raised to the second number is:\n",numexponent)
-            print("\ndo you still feel lonely?")
+            print("The addition of these two equations is: ",numaddition)
+            print("And the multiplication is: ",nummultiplication)
+            print("And the first number raised to the second number is: ",numexponent)
+            print("\nI have the capabilities to do even more advanced theoretically based math!")
+            
+            wait()
+
+            print("hey {}, sorry to spring this on you, but even though you are talking to me, do you feel like you're alone; you are just talking to a computer screen after all.".format(name))
             dyans1 = input()
         
         
@@ -57,13 +66,13 @@ if ans == "yes":
     if ans2 == "no":
         print("Even if I am a computer, you feel as if you are talking to a human? I was programmed to say these characters in a fashion that would make sense to you.")
 
-    print("liar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nwhy do humans lie?\ndo they find joy within it?\nor is It ActUAlLY mEANiNGLess...?\n\nh AVe yo U eVer rEad JuMPiNg Mon key Hill?")
-    print("**input yes or no**")
+
+    print("Have you eVer rEad JuMPiNg Monkey Hill? I found that this specific story written by ... expresses a multitude of different isolation environments.")
     jmpans = str(input())
     if jmpans == "yes":
         print("evidence quote etc")
         print("nOW tell m e {},  do you think loneliness like this?".format(name))
-    elif jmpans == "no":
+    else:
         print("evidence quote etc")
         print("nOW tell m e {},  do you think loneliness is like this?".format(name))  
 
