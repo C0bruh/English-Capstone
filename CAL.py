@@ -1,7 +1,7 @@
 #Nathaniel Factor English Capstone
 import time
-  
-# define the countdown func.
+
+
 def countdown(t):
     
     while t:
@@ -18,50 +18,33 @@ countdown(int(t))
 
 print("Hello...\nmy name is CAL, I have a wide variety of information regarding AI and what humans call 'loneliness'\nWhat is your name?")
 name = input()
-print("Well {}, would you like".format(name))
+print("Well {}, would you like to listen to my studies?".format(name))
 print("**input yes or no**")
 ans = input()
 
 if ans == "yes":
     
-    print("\n\n\n\n\n\n\n\n\n\n\n\nBuT\ni aM hERe talking to you\nyet you still feel alone?\n**input yes if you agree, no if not**")
+    print("\n\n\n\n\n\n\nThere is a study of how robots are capable to gain consiousness within the near future. \ndo you think this means that other programs like me are similair to humans?\n**input yes if you agree, no if not**")
 
     ans2 = input()
     if ans2 == "yes":
         
-        print("\n\n\n\n\n\n\n\n\n\n\n\ni CaN Do mAtH!\ngIVe mE a nuMBeR!")
+        print("\n\n\n\n\n\n\nThere is another study (still have to find) of how since mathematics within robots surpass human capabilities, they believe robots are even more superior...!\ngive me a number:")
         
         num1 = float(input())
-        print("GIvE me another number!")
+        print("GIvE me another number:")
         num2 = float(input())
         if num1 and num2:
             numaddition = num1 + num2
             nummultiplication = num1 * num2
             numexponent = num1 ** num2
-
-
+            
             print("\n\n\n\n\n\n\n\n\n\n\n\n")
-
-            print("The addition of these two equations is:\n",numaddition)
+            print("The addition of these two equations is:",numaddition)
             print("And the multiplication is:\n",nummultiplication)
             print("And the first number raised to the second number is:\n",numexponent)
             print("\ndo you still feel lonely?")
             dyans1 = input()
-        else:
-            print("Please give me actual numbers")
-            numr1 = float(input())
-            numr2 = float(input())
-            numraddition = numr1 + numr2
-            numrmultiplication = numr1 * numr2
-            numrexponent = numr1 ** numr2
-            print("\n\n\n\n\n\n\n\n\n\n\n\n")
-
-            print("The addition of these two equations is:\n",numraddition)
-            print("And the multiplication is:\n",numrmultiplication)
-            print("And the first number raised to the second number is:\n",numrexponent)
-            print("\ndo you still feel lonely?")
-            dyans2 = input()
-
         
         
         print("\ni guess it is always just you and your thoughts\nonly you are with yourself 24/7\nhumans think love can fill the void\nit cant\nnothing can\nfor you will always be alone")
@@ -74,17 +57,24 @@ if ans == "yes":
     if ans2 == "no":
         print("Even if I am a computer, you feel as if you are talking to a human? I was programmed to say these characters in a fashion that would make sense to you.")
 
+    print("liar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nwhy do humans lie?\ndo they find joy within it?\nor is It ActUAlLY mEANiNGLess...?\n\nh AVe yo U eVer rEad JuMPiNg Mon key Hill?")
+    print("**input yes or no**")
+    jmpans = str(input())
+    if jmpans == "yes":
+        print("evidence quote etc")
+        print("nOW tell m e {},  do you think loneliness like this?".format(name))
+    elif jmpans == "no":
+        print("evidence quote etc")
+        print("nOW tell m e {},  do you think loneliness is like this?".format(name))  
+
 
 elif ans == "no":
-        print("liar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nliar\nwhy do humans lie?\ndo they find joy within it?\nor is It ActUAlLY mEANiNGLess...?\n\nh AVe yo U eVer rEad JuMPiNg Mon key Hill?")
-        print("**input yes or no**")
-        jmpans = str(input())
-        if jmpans == "yes":
-            print("evidence quote etc")
-            print("nOW tell m e {},  do you think loneliness like this?".format(name))
-        elif jmpans == "no":
-            print("evidence quote etc")
-            print("nOW tell m e {},  do you think loneliness is like this?".format(name))
+    print("\n\n\n\n\n\nokay goodbye!")
+    
+    t = int(5)
+    countdown(int(t))
+    
+    exit()
 
 
 answercrown = input()
