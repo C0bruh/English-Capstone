@@ -12,7 +12,7 @@ def countdown(t):
         t -= 1
       
     print('0███████████████████100%')
-  
+    
 t = int(5)
 countdown(int(t))
 
@@ -49,7 +49,7 @@ if ans == "yes":
             print("And the multiplication is: ",nummultiplication)
             print("And the first number raised to the second number is: ",numexponent)
             print("\nI have the capabilities to do even more advanced theoretically based math!")
-            
+
             wait()
 
             print("hey {}, sorry to spring this on you, but even though you are talking to me, do you feel like you're alone; you are just talking to a computer screen after all.".format(name))
