@@ -19,14 +19,15 @@ countdown(int(t))
 def wait():
     time.sleep(3)
 
-
+def wait2():
+    time.sleep(5)
 
 print("Hello...\nmy name is CAL, I have a wide variety of information regarding AI and what humans call 'loneliness'\nWhat is your name?")
 name = input()
 print("Well {}, would you like to listen to my studies?".format(name))
 print("**input yes or no**")
 ans = input()
-
+'''
 if ans == "yes":
     
     print("\n\n\n\n\n\n\nThere is a study of how robots are capable to gain consiousness within the near future. \ndo you think this means that other programs like me are similair to humans?\n**input yes if you agree, no if not**")
@@ -84,11 +85,30 @@ elif ans == "no":
     countdown(int(t))
     
     exit()
+'''
+def crown():
+    answercrown = input()
+
+    print("\nI have a few more questions for you {}".format(name)+"\n\nWhilst I was doing my research on the human emotion of loneliness, I listened to music built within my programmed algorithms. One of the constantly recurring poetic musical pieces that kept playing was: Lamar, Kendrick. “Crown.” Duval Timothy, May 13, 2022. This song almost made my circuits fry from my robot tears for I wonder if I, a simple program, will ever experience such raw emotion and truth. Within the song, Lamar feels that “heavy is the head that chose to wear the crown” (refrain). After running through my human song analysis built-in program, I was able to connect how one with great responsibility often faces more significant stress because society places greater expectations on those who have high influential status. This high status is the determining factor for how one may feel isolated from society.")
+
+    wait2()
+    print("\n\ndo you follow?")
+    answercrown2 = input()
 
 
-answercrown = input()
-print("\nI have a few more questions for you {}".format(name)+"\n\nWhile I was researching my database for information about loneliness, I listened to Kendricks new album. There is a song called, 'Crown'. I found that a lot of ... evidence etc")
-answercrown2 = input()
+    print("\n\nWell, I can only conclude that humans will only gain nothing but stress and pressure. It is the societal role between AI and humans that will cause a disconnect in how we normally function as a society because robots will be used for chores and challenging tasks that humans originally had too adverse through. Eventually, a solution of AI will only inflict laziness, loneliness, and isolation. This influence potential AI possesses causes fear, for society fears what’s unknown. Thus, further isolating ourselves from our previous way of living, and furthermore, creating an increase in disconnects between AI and other humans.")
+
+    wait2()
+
+    print("\n\n\nHumans will learn to fear the power potential future AI will possess.")
+    wait2()
+    print("It is this fear of AI that will cause isolation")
+    wait2()
+    print("Are you listening")
+    answercrown3 = input()
+
+crown()
+
 print("there was another song that came about {}... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.".format(name))
 print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
 pass
