@@ -36,9 +36,9 @@ def crown():
 
     wait2()
 
-    print("\n\n\nHumans will learn to fear the power potential future AI will possess.")
+    print("\n\n\nHumans will learn to fear the power, influence, and potential future AI will possess.")
     wait2()
-    print("It is this fear of AI that will cause isolation")
+    print("It is this fear of AI that will cause isolation.")
     wait2()
     print("Are you listening")
     answercrown3 = input()
