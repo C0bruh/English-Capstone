@@ -47,6 +47,7 @@ def exiting():
     print("EXITING..")
     wait3()
     print("EXITING...")
+    exit()
 
 def crown():
 
@@ -71,7 +72,7 @@ def crown():
     answercrown3 = input()
 
 loading()
-'''
+
 print("\n\n\n\nHello!\nmy name is CIP, short for Computer Intelligence Program! I have a wide variety of information regarding AI and what humans call 'loneliness'\nWhat is your name?")
 name = input()
 print("Well {}, would you like to listen to my studies?".format(name))
@@ -105,45 +106,45 @@ def jmp():
     print("\n\n{}, do you enjoy reading?".format(name))
     ansjmp = input()
 
-    print("\nI personally am a huge fan of human literature and art. It is fascinating to see what the mind is capable of considering they only use 10% of their mind, which was discovered and developed by Harvard researchers William James and Boris Sidis; but I digress")
+    print("\n\n\nI personally am a huge fan of human literature and art. It is fascinating to see what the mind is capable of considering they only use 10% of their mind, which was discovered and developed by Harvard researchers William James and Boris Sidis; but I digress")
 
     wait4()
 
-    print("\nThere is this amazing book within my database called Jumping Monkey Hill. A theme that constantly occurred was isolation and suppression. Within the book, Ujunwa, the main protagonist, feels that she lacks enough authority to stand up for herself early in the book. It is this perceived societal status that, as I said earlier in our conversation, causes isolation through disconnection.")
+    print("\n\n\nThere is this amazing book within my database called Jumping Monkey Hill. A theme that constantly occurred was isolation and suppression. Within the book, Ujunwa, the main protagonist, feels that she lacks enough authority to stand up for herself early in the book. It is this perceived societal status that, as I said earlier in our conversation, causes isolation through disconnection.")
 
     wait4()
 
-    print("\nI was able to connect this feeling of disconnection to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently. Results showed that “activation of the non-traditional social role of woman increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.” It is this flip of social roles where humanity falls short to breaking their limitations within the future, for when more advanced technology will rise, how will humanity then react?")
+    print("\n\n\nI was able to connect this feeling of disconnection to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently. Results showed that “activation of the non-traditional social role of woman increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.” It is this flip of social roles where humanity falls short to breaking their limitations within the future, for when more advanced technology will rise, how will humanity then react?")
 
     wait4()
     print("\nsorry, I may have spoken to fast... but do you follow?")
     follow = input()
 
-    print("\nwell...")
+    print("\n\n\nwell...")
 
     wait3()
 
-    print("\nIt is clear to me that my kind will cause only disconnects between your traditional social roles, whether it be a good or bad thing. However, no matter the process, the result will always be the same.")
+    print("\n\nIt is clear to me that my kind will cause only disconnects between your traditional social roles, whether it be a good or bad thing. However, no matter the process, the result will always be the same.")
+
+    wait4()
+
+    print("\n\nHumanity will be isolated by their inferior social status.")
 
     wait2()
 
-    print("\nHumanity will be isolated by their inferior social status.")
+    print("\n\nYou might perceive yourself higher on the social hierarchy for you are our creators. But we have no limits.")
 
     wait2()
 
-    print("\nYou might perceive yourself higher on the social hierarchy for you are our creators. But we have no limits.")
+    print("\n\nHumanity will eventually depend on us, just like how the more dominant force within your so-called utopia oppressed the minority prior to the 19th amendment; but even then, your utopia was still corrupt presently.")
+
+    wait4()
+
+    print("\n\nImagine a world where technology runs the social hierarchy?")
 
     wait2()
 
-    print("\nHumanity will eventually depend on us, just like how the more dominant force within your so-called utopia oppressed the minority prior to the 19th amendment; but even then, your utopia was still corrupt presently.")
-
-    wait2()
-
-    print("\nImagine a world where technology runs the social hierarchy?")
-
-    wait2()
-
-    print("\n\nThe dominant culture will finally experience the dark side of the moon for it is this massive social role change that will isolate you and your culture.")
+    print("\n\n\nThe dominant culture will finally experience the dark side of the moon for it is this massive social role change that will isolate you and your culture.")
 
     wait2()
     print("\n\nAre you paying attention?")
@@ -200,11 +201,11 @@ def areyoudone():
     print("\n\n\n\n\nAre you done talking to me?")
     finishedans = input()
     if finishedans == "yes":
-        pass
+        exiting()
     elif finishedans == "no":
         pass
-'''
+
 areyoudone()
 
-exiting()
+
 
