@@ -147,7 +147,7 @@ def Goodbyetoaworld():
     print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
     pass
 
-'''
+
 if ans == "yes":
         
     calculator()
@@ -180,7 +180,6 @@ elif ans == "no":
     countdown(int(t))
     
     exit()
-'''
 
 
 crown()
