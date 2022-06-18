@@ -3,13 +3,10 @@ import time
 
 def wait():
     time.sleep(3)
-
 def wait2():
     time.sleep(5)
-
 def wait3():
     time.sleep(1)
-
 def wait4():
     time.sleep(10)
 
@@ -23,7 +20,6 @@ def countdown(t):
         t -= 1
       
     print('0███████████████████100%')
-
 def loading():
     t = int(5)
     countdown(int(t))
@@ -36,7 +32,6 @@ def loading():
     print("LOADING..")
     wait3()
     print("LOADING...")
-
 def exiting():
     print("EXITING...")
     wait3()
@@ -48,7 +43,6 @@ def exiting():
     wait3()
     print("EXITING...")
     exit()
-
 def crown():
 
     answercrown = input()
@@ -100,7 +94,6 @@ def calculator():
 
         print("hey {}, sorry to spring this on you, but even though you are talking to me, do you feel like you're alone; you are just talking to a computer screen after all.".format(name))
         dyans1 = input()
-
 def jmp():
 
     print("\n\n{}, do you enjoy reading?".format(name))
@@ -149,6 +142,10 @@ def jmp():
     wait2()
     print("\n\nAre you paying attention?")
     follow2 = input()
+def Goodbyetoaworld():
+    print("there was another song that came about {}... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.".format(name))
+    print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
+    pass
 
 '''
 if ans == "yes":
@@ -187,14 +184,7 @@ elif ans == "no":
 
 
 crown()
-
 jmp()
-
-def Goodbyetoaworld():
-    print("there was another song that came about {}... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.".format(name))
-    print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
-    pass
-
 Goodbyetoaworld()
 
 def areyoudone():
