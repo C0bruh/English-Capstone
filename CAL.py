@@ -146,45 +146,35 @@ def Goodbyetoaworld():
     print("there was another song that came about {}... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.".format(name))
     print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
     pass
-def phonestudies():
-    pass
-
-if ans == "yes":
-        
-    calculator()
-        
-    print("\ni guess it is always just you and your thoughts\nonly you are with yourself 24/7\nhumans think love can fill the void\nit cant\nnothing can\nfor you will always be alone")
-    print("\n do you agree?")
-
-    ans3 = str(input())
-    print("have you ever listened to porter robinson etc\nexplanation quote etc")
-    print("nOW tell m e {}, is loneliness like this?".format(name))
-    ans2 = str(input())
-    if ans2 == "no":
-        print("Even if I am a computer, you feel as if you are talking to a human? I was programmed to say these characters in a fashion that would make sense to you.")
+def studies():
 
 
-    print("Have you eVer rEad JuMPiNg Monkey Hill? I found that this specific story written by ... expresses a multitude of different isolation environments.")
-    jmpans = str(input())
-    if jmpans == "yes":
-        print("evidence quote etc")
-        print("nOW tell m e {},  do you think loneliness like this?".format(name))
-    else:
-        print("evidence quote etc")
-        print("nOW tell m e {},  do you think loneliness is like this?".format(name))  
+    print("\n\n\nOh My {}! I nearly forgot to tell you about the actual studies!".format(name))
 
+    wait3()
 
-elif ans == "no":
-    print("\n\n\n\n\n\nokay goodbye!")
+    print("\n\nFirst one must understand the defining characteristics of loneliness")
     
-    exiting()
+    wait3()
 
+    print("\n\nAs Louise C. Hawkley (Ph.D.) and John T. Cacioppo (Ph.D) have stated within their article Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms, loneliness “is the pain of social disconnection and the hunger… for social connection” (Introduction).")
+    
+    wait4()
 
-crown()
-jmp()
-Goodbyetoaworld()
-phonestudies()
+    print("\n\n\nThe fundamental characteristic of loneliness is how important social connections are for a healthy balanced lifestyle. Researcher Sophie Okolo has stated a solution for those who experience loneliness where “fostering [connections] digitally can help lead to increased in-person interactions”. Platforms such as Facebook, Twitter, and Instagram all are meant for people to connect and communicate without any physical problems.")
+    
+    wait4()
 
+    print("\n\n\nBut researcher Bu Zhong states otherwise for one study of his reflects how connections through technology lack face-to-face interactions. It is the absence of social ques such as body positioning, eye contact, and much more that feed cognital waves to one’s brain. These cognital waves cause anxiety and uneasiness. Hence, loneliness arises within.")
+    
+    wait4()
+
+    print("\n\n\nFurthermore, A study conducted within the university of Penn State discovered that 70% felt as if instagram and other social media platforms drained their self confidence. This is because “loneliness may also be more painfully felt online, where exposure to idealised images of friends can result in negative social comparisons” say Thomas Abrams, and Michelle Man (the two researchers which conducted the study).")
+    
+    wait4()
+
+    print("\n\n\n\n“relying on technology to communicate can make us feel more anxious and undermine our mental wellbeing” -  Thomas Abrams and Michelle Man\n\nDo you agree?")
+    concans = input()
 def areyoudone():
     print("\n\n\n\n\nAre you done talking to me?")
     finishedans = input()
@@ -192,8 +182,20 @@ def areyoudone():
         exiting()
     elif finishedans == "no":
         pass
+if ans == "yes":
+        
+    calculator()
+    crown()
+    jmp()
+    Goodbyetoaworld()
+    studies()
+    areyoudone()
 
-areyoudone()
+elif ans == "no":
+    print("\n\n\n\n\n\nokay goodbye!")
+    
+    exiting()
+
 
 
 
