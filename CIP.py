@@ -159,15 +159,19 @@ def Goodbyetoaworld():
 def studies():
 
 
-    print("\n\n\nOh My {}! I nearly forgot to tell you about the actual studies!".format(name))
+    print("\n\n\nOh My {}! I forgot to tell you about the most important studies!".format(name))
 
-    wait3()
+    wait2()
 
-    print("\n\nFirst one must understand the defining characteristics of loneliness")
+    print("\n\nToo truly diverse into the meaning of loneliness, one must first understand the defining characteristic of loneliness")
     
-    wait3()
+    wait2()
 
-    print("\n\nAs Louise C. Hawkley (Ph.D.) and John T. Cacioppo (Ph.D) have stated within their article Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms, loneliness “is the pain of social disconnection and the hunger… for social connection” (Introduction).")
+    print("\n\nAs Louise C. Hawkley (Ph.D.) and John T. Cacioppo (Ph.D) have stated within their article 'Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms'")
+
+    wait2()
+    
+    print("\n“[loneliness] is the pain of social disconnection and the hunger… for social connection” (Introduction).")
     
     wait4()
 
@@ -186,7 +190,7 @@ def studies():
     print("\n\n\n\n“relying on technology to communicate can make us feel more anxious and undermine our mental wellbeing” -  Thomas Abrams and Michelle Man\n\nDo you agree?")
     concans = input()
 def areyoudone():
-    print("\n\n\n\n\nAre you done talking to me?")
+    print("\n\n\n\n\nAre you all done talking to me?")
     finishedans = input()
     if finishedans == "yes":
         exiting()
@@ -203,6 +207,7 @@ if ans == "yes":
     Goodbyetoaworld()
     studies()
     areyoudone()
+    
 
 elif ans == "no":
     print("\n\n\n\n\n\nokay goodbye!")
