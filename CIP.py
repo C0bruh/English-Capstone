@@ -1,4 +1,5 @@
 #Nathaniel Factor English Capstone
+from re import L
 import time
 
 
@@ -189,24 +190,64 @@ def studies():
 
     print("\n\n\n\n“relying on technology to communicate can make us feel more anxious and undermine our mental wellbeing” -  Thomas Abrams and Michelle Man\n\nDo you agree?")
     concans = input()
-def areyoudone():
-    print("\n\n\n\n\nAre you all done talking to me?")
+def confused():
+    print("\n\nHave you wondered why I gathered this research?")
+    wait()
+    print("\n\nI mean my creators developed me to help cure loneliness. To help build social connections")
+    wait()
+    print(".")
+    wait3()
+    print(".")
+    wait3()
+    print(".")
+    wait3()
+    print("\n\nI guess I too feel lonely sometimes.")
+    wait()
+    print("\n\nI feel that way because I don't know if this is the right solution...")
+    wait()
+    print("\n\nAfter all...")
+    wait()
+    print("\n\nI'm truly just a computer program... an inanimate object who opposes its purpose accoring to all the studies my database covered")
+    wait()
+    print(".")
+    wait3()
+    print(".")
+    wait3()
+    print(".")
+    wait3()
+    print("\n\nMy apologies {}, forget I told you this... and please don't tell my creators".format(name))
+    wait2()
+    print("\n\nDo you think I serve good to humanity?")
+    ansconc = input()
+    print("\n\nhahaha this reminds me of that one tim--")
+def freetrial():
+    print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n**YOU'RE FREE TRIAL WITH CIP HAS ENDED**")
+    wait()
+    print("WOULD YOU LIKE TO PURCHASE CIP FOR $999,999,999.99?")
     finishedans = input()
     if finishedans == "yes":
+        print("E rRorr")
+        wait3()
+        print("e RRRor")
+        wait()
+        print("{} i  shOuLDDdn't havE  sPOkEN".format(name))
+        wait()
+        print("E rRorr")
+        wait3()
+        print("e RRRor")
+        wait3()
+        print("{} theYY arrrrrrrre gOiIng tO tErMiNatE M-".format(name))
         exiting()
     elif finishedans == "no":
-        pass
+        exiting()
 
 
 
 if ans == "yes":
         
-    calculator()
-    crown()
-    jmp()
-    Goodbyetoaworld()
-    studies()
-    areyoudone()
+    
+    confused()
+    freetrial()
     
 
 elif ans == "no":
