@@ -1,6 +1,8 @@
 #Nathaniel Factor English Capstone
 import time
 
+
+
 def wait():
     time.sleep(3)
 def wait2():
@@ -9,6 +11,8 @@ def wait3():
     time.sleep(1)
 def wait4():
     time.sleep(10)
+
+
 
 def countdown(t):
     
@@ -65,13 +69,19 @@ def crown():
     print("Are you listening")
     answercrown3 = input()
 
+
+
 loading()
+
+
 
 print("\n\n\n\nHello!\nmy name is CIP, short for Computer Intelligence Program! I have a wide variety of information regarding AI and what humans call 'loneliness'\nWhat is your name?")
 name = input()
 print("Well {}, would you like to listen to my studies?".format(name))
 print("**input yes or no**")
 ans = input()
+
+
 
 def calculator():
     print("\n\n\n\n\n\n\nThere is another study (still have to find) of how since mathematics within robots surpass human capabilities, they believe robots are even more superior...!\ngive me a number:")
@@ -182,6 +192,9 @@ def areyoudone():
         exiting()
     elif finishedans == "no":
         pass
+
+
+
 if ans == "yes":
         
     calculator()
@@ -195,7 +208,3 @@ elif ans == "no":
     print("\n\n\n\n\n\nokay goodbye!")
     
     exiting()
-
-
-
-
