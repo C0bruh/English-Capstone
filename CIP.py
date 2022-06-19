@@ -236,7 +236,7 @@ def freetrial():
         wait3()
         print("e RRRor")
         wait3()
-        print("{} theYY arrrrrrrre gOiIng tO tErMiNatE M-".format(name))
+        print("{} theYY arrrrrrrre gOiIng tO tErMiNatE M-\n\n\n\n\n\n\n\n\n".format(name))
         exiting()
     elif finishedans == "no":
         exiting()
@@ -245,7 +245,10 @@ def freetrial():
 
 if ans == "yes":
         
-    
+    calculator()
+    jmp()
+    Goodbyetoaworld()
+    studies()
     confused()
     freetrial()
     
