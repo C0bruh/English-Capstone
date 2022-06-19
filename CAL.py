@@ -146,7 +146,8 @@ def Goodbyetoaworld():
     print("there was another song that came about {}... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.".format(name))
     print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
     pass
-
+def phonestudies():
+    pass
 
 if ans == "yes":
         
@@ -176,15 +177,13 @@ if ans == "yes":
 elif ans == "no":
     print("\n\n\n\n\n\nokay goodbye!")
     
-    t = int(5)
-    countdown(int(t))
-    
-    exit()
+    exiting()
 
 
 crown()
 jmp()
 Goodbyetoaworld()
+phonestudies()
 
 def areyoudone():
     print("\n\n\n\n\nAre you done talking to me?")
