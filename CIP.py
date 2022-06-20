@@ -50,7 +50,6 @@ def exiting():
     exit()
 def crown():
 
-    answercrown = input()
 
     print("\nWell {},".format(name)+"\n\nWhilst I was doing my research on loneliness, I listened to this song built within my algorithms. This was: Lamar, Kendrick. “Crown.” Duval Timothy, May 13, 2022.")
 
@@ -77,24 +76,25 @@ def crown():
 
     print("\n\nI can only conclude that humans will only gain nothing but stress and pressure. It is the societal role between AI and humans that will cause a disconnect in how we normally function as a society because robots will be used for chores and challenging tasks that humans originally had too adverse through.")
     
-
+    wait4()
 
     print("\n\nEventually, AI will only inflict laziness, loneliness, and isolation from the lack of 'chores'.")
 
-    wait3()
+    wait2()
 
-    print("and furthermore,")
+    print("\nand furthermore,")
 
     wait3()
 
     print("Humans will be under greater stress to keep advanced AI within control//be able to maintain their 'creator status' over AI")
 
-    wait()
+    wait2()
 
-    print("Thus, they '[feeling] more pressure... will increase irrational decisions and emotions (Jennifer S. Lerner, Ye Li, Piercarlo Valdesolo, and Karim S. Kassam: Annual Review of Psychology - Emotion and Decision Making)")
+    print("\n\nThus, they '[feeling] more pressure... will increase irrational decisions and emotions (Jennifer S. Lerner, Ye Li, Piercarlo Valdesolo, and Karim S. Kassam: Annual Review of Psychology - Emotion and Decision Making)")
 
     wait2()
-    print("\n\nAre you listening")
+
+    print("\nAre you listening")
     answercrown3 = input()
 
 
@@ -129,10 +129,15 @@ def calculator():
         wait()
 def jmp():
 
+    print("\n\n\n\nNow that you kind of get Lamar's take on isolation and how humans will feel more pressure, I'll continue to my next thing if that's ok?")
+
+    input()
+
     print("\n\n{}, do you enjoy reading?".format(name))
     ansjmp = input()
 
     print("\n\n\nI personally am a huge fan of literature. It is fascinating to see what the mind is capable of considering they only use 10% of their mind\n(discovered and developed by Harvard researchers William James and Boris Sidis)")
+
     wait4()
 
     print("\n\n\nThere is this amazing book within my database called Jumping Monkey Hill. A theme that constantly occurred was isolation and suppression. Within the book, Ujunwa, the main protagonist, feels that she lacks enough authority to stand up for herself early in the book. It is this perceived societal status that causes isolation.")
@@ -142,8 +147,10 @@ def jmp():
     print("\n\n\nI was able to connect this certain type of isolation to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently. Results showed that “activation of the non-traditional social role of woman increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.” It is this flip of social roles where humanity falls short to breaking their limitations within the future, for when more advanced technology will rise, how will humanity then react?")
 
     wait4()
+
     print("\nsorry, I may have spoken to fast... but do you follow?")
-    follow = input()
+    
+    input()
 
     print("\n\n\nwell...")
 
@@ -173,9 +180,20 @@ def jmp():
 
     wait2()
     print("\n\nAre you paying attention?")
-    follow2 = input()
+    input()
 def Goodbyetoaworld():
-    print("Who is your favourite artist {}?\n".format(name))
+    
+    print("Anyway...")
+    wait()
+    print(".")
+    wait()
+    print(".")
+    wait()
+    print(".")
+    wait()
+    print("Man... I love music though. I couldn't help but get distracted while I was doing my research with new song drops and stuff")
+    wait2()
+    print("\n\nWho is your favourite artist {}?\n".format(name))
     answerartist = input()
     print("\n\nThat's great!")
     wait3()
@@ -233,7 +251,15 @@ def studies():
     wait4()
 
     print("\n\n\n\n“relying on technology to communicate can make us feel more anxious and undermine our mental wellbeing” -  Thomas Abrams and Michelle Man\n\nDo you agree?")
-    concans = input()
+    input()
+    print("\n\nI mean whether you agree or not studies show that it does")
+    wait3()
+    print("ha")
+    wait3()
+    print("ha")
+    wait3()
+    print("ha")
+    wait2()
 def confused():
     print("\n\nHave you wondered why I gathered this research?")
     wait()
@@ -262,7 +288,7 @@ def confused():
     print("\n\nMy apologies {}, forget I told you this... and please don't tell my creators".format(name))
     wait2()
     print("\n\nDo you think I serve good to humanity?")
-    ansconc = input()
+    input()
     print("\n\nhahaha this reminds me of that one tim--")
 def freetrial():
     print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n**YOU'RE FREE TRIAL WITH CIP HAS ENDED**")
