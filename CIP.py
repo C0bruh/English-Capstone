@@ -140,23 +140,46 @@ def jmp():
 
     wait2()
 
-    print("\n\nHumanity will eventually depend on us, just like how the more dominant force within your so-called utopia oppressed the minority prior to the 19th amendment; but even then, your utopia was still corrupt presently.")
+    print("\n\nHumanity will eventually depend on us, just like how men oppressed the women prior to the 19th amendment; but even then, your utopia is still corrupted presently.")
 
     wait4()
 
-    print("\n\nImagine a world where technology runs the social hierarchy?")
+    print("\n\nImagine a world where technology runs the social hierarchy...")
 
     wait2()
 
-    print("\n\n\nThe dominant culture will finally experience the dark side of the moon for it is this massive social role change that will isolate you and your culture.")
+    print("\n\nThis massive social role change will isolate you and your culture. Just like trends within the past")
 
     wait2()
     print("\n\nAre you paying attention?")
     follow2 = input()
 def Goodbyetoaworld():
-    print("there was another song that came about {}... I think it was 'Goodbye to a World'. I found it slightly offensive for the singer sounded like he was mocking us, but i digress.".format(name))
-    print("\nevidence etc\n\nMy god I forgot to tell you about my new brothers and sisters coming soon!!")
-    pass
+    print("Who is your favourite artist {}?\n".format(name))
+    answerartist = input()
+    print("\n\nThat's great!")
+    wait3()
+    print("\n\nMy favourite artist is Porter Robinson. He has this one amazing song called 'Goodbye to a World' which pretty much tells a story of the world ending through the eyes of a robot that has human consciousness.")
+    wait2()
+    print("\n\nI love this song because it is able to convey the loneliness and sadness that the robot feels within a limited ammount of words - just pure instrumental")
+    wait()
+    print("\n\nRobinson is able to express such emotion by increasing the pace of the song and adding in more instruments throughout the first minute of the song; then he suddenly cuts all the instruments out and the vocals kick in! The vocals represent the robot thanking their creator for introducing them to such a beautiful world and even 'though its the end of the world, don't blame [the creator]' for creating him with the world in such a dire state.")
+    wait2()
+    print("This leads me to the question: Since this robot has human like capabilities (consciousness etc) does that not mean he must also experience other human emotions?")
+    wait()
+    print(".")
+    wait3()
+    print(".")
+    wait3()
+    print(".")
+    wait3()
+    print("\n\nBoris Kotchoubey, a research among the human consciousness states: 'Consciousness is not a process in the brain but a kind of behavior that, of course, is controlled by the brain like any other behavior.' (Human Consciousness: Where is it from and What is it for).")
+    wait()
+    print("\n\nThus, this robot is able to experience emotions like loneliness just as a human can")
+    wait()
+    print("\n\nPresently, researchers such as Damasio A.R. are already 'taking an informational approach that is tightly bound to biological life... [he] considers the adaptive advantages of a successive stages of evolving self-modeling processes' \n\n(David Harris Smith and  Guido Schillaci - Why Build a Robot With Artificial Consciousness? How to Begin? A Cross-Disciplinary Dialogue on the Design and Implementation of a Synthetic Model of Consciousness)")
+    wait4()
+    print("Are you looking forward to the first humanoid AI? (Obviously next to me... I just need a body you know what I'm saying haha")
+    input()
 def studies():
 
 
@@ -226,15 +249,15 @@ def freetrial():
     print("WOULD YOU LIKE TO PURCHASE CIP FOR $999,999,999.99?")
     finishedans = input()
     if finishedans == "yes":
-        print("E rRorr")
+        print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nE rRorr")
         wait3()
-        print("e RRRor")
+        print("\n\ne RRRor")
         wait()
         print("{} i  shOuLDDdn't havE  sPOkEN".format(name))
         wait()
-        print("E rRorr")
+        print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nE rRorr")
         wait3()
-        print("e RRRor")
+        print("\n\ne RRRor")
         wait3()
         print("{} theYY arrrrrrrre gOiIng tO tErMiNatE M-\n\n\n\n\n\n\n\n\n".format(name))
         exiting()
