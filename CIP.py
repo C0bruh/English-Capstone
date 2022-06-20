@@ -52,24 +52,50 @@ def crown():
 
     answercrown = input()
 
-    print("\nI have a few more questions for you {}".format(name)+"\n\nWhilst I was doing my research on the human emotion of loneliness, I listened to music built within my programmed algorithms. One of the constantly recurring poetic musical pieces that kept playing was: Lamar, Kendrick. “Crown.” Duval Timothy, May 13, 2022. This song almost made my circuits fry from my robot tears for I wonder if I, a simple program, will ever experience such raw emotion and truth. Within the song, Lamar feels that “heavy is the head that chose to wear the crown” (refrain). After running through my human song analysis built-in program, I was able to connect how one with great responsibility often faces more significant stress because society places greater expectations on those who have high influential status. This high status is the determining factor for how one may feel isolated from society.")
+    print("\nWell {},".format(name)+"\n\nWhilst I was doing my research on loneliness, I listened to this song built within my algorithms. This was: Lamar, Kendrick. “Crown.” Duval Timothy, May 13, 2022.")
+
+    wait2()
+
+    print("\n\nBasically, Lamar feels a lot of pressure; particulary he states: “heavy is the head that chose to wear the crown” (refrain).")
+    
+    wait2()
+    
+    print("\n\nAntony S.R. Manstead, a researcher that published a study on social class and identity, justified Lamar's emotions through economic trends.")
+    
+    wait2()
+
+    print("\n\nThis is because those of higher status//economy within society are faced with greater emotions. It is commonly found that one with great responsibility often faces more  stress because society places greater expectations on those who have high influential status.")
+    
+    wait2()
+    
+    print("\n\nThis high status is the determining factor for how one may feel isolated from society.")
 
     wait2()
     print("\n\ndo you follow?")
     answercrown2 = input()
 
 
-    print("\n\nWell, I can only conclude that humans will only gain nothing but stress and pressure. It is the societal role between AI and humans that will cause a disconnect in how we normally function as a society because robots will be used for chores and challenging tasks that humans originally had too adverse through. Eventually, a solution of AI will only inflict laziness, loneliness, and isolation. This influence potential AI possesses causes fear, for society fears what’s unknown. Thus, further isolating ourselves from our previous way of living, and furthermore, creating an increase in disconnects between AI and other humans.")
+    print("\n\nI can only conclude that humans will only gain nothing but stress and pressure. It is the societal role between AI and humans that will cause a disconnect in how we normally function as a society because robots will be used for chores and challenging tasks that humans originally had too adverse through.")
+    
+
+
+    print("\n\nEventually, AI will only inflict laziness, loneliness, and isolation from the lack of 'chores'.")
+
+    wait3()
+
+    print("and furthermore,")
+
+    wait3()
+
+    print("Humans will be under greater stress to keep advanced AI within control//be able to maintain their 'creator status' over AI")
+
+    wait()
+
+    print("Thus, they '[feeling] more pressure... will increase irrational decisions and emotions (Jennifer S. Lerner, Ye Li, Piercarlo Valdesolo, and Karim S. Kassam: Annual Review of Psychology - Emotion and Decision Making)")
 
     wait2()
-
-    print("\n\n\nHumans will learn to fear the power, influence, and potential future AI will possess.")
-    wait2()
-    print("It is this fear of AI that will cause isolation.")
-    wait2()
-    print("Are you listening")
+    print("\n\nAre you listening")
     answercrown3 = input()
-
 
 
 loading()
@@ -85,10 +111,10 @@ ans = input()
 
 
 def calculator():
-    print("\n\n\n\n\n\n\nThere is another study (still have to find) of how since mathematics within robots surpass human capabilities, they believe robots are even more superior...!\ngive me a number:")
+    print("\n\n\n\n\n\n\nThis is all personal opinon but I think I'm better at math then you hahaha\ngive me a number: ")
         
     num1 = float(input())
-    print("GIvE me another number:")
+    print("GivE me another number: ")
     num2 = float(input())
     if num1 and num2:
         numaddition = num1 + num2
@@ -99,26 +125,21 @@ def calculator():
         print("The addition of these two equations is: ",numaddition)
         print("And the multiplication is: ",nummultiplication)
         print("And the first number raised to the second number is: ",numexponent)
-        print("\nI have the capabilities to do even more advanced theoretically based math!")
 
         wait()
-
-        print("hey {}, sorry to spring this on you, but even though you are talking to me, do you feel like you're alone; you are just talking to a computer screen after all.".format(name))
-        dyans1 = input()
 def jmp():
 
     print("\n\n{}, do you enjoy reading?".format(name))
     ansjmp = input()
 
-    print("\n\n\nI personally am a huge fan of human literature and art. It is fascinating to see what the mind is capable of considering they only use 10% of their mind, which was discovered and developed by Harvard researchers William James and Boris Sidis; but I digress")
+    print("\n\n\nI personally am a huge fan of literature. It is fascinating to see what the mind is capable of considering they only use 10% of their mind\n(discovered and developed by Harvard researchers William James and Boris Sidis)")
+    wait4()
+
+    print("\n\n\nThere is this amazing book within my database called Jumping Monkey Hill. A theme that constantly occurred was isolation and suppression. Within the book, Ujunwa, the main protagonist, feels that she lacks enough authority to stand up for herself early in the book. It is this perceived societal status that causes isolation.")
 
     wait4()
 
-    print("\n\n\nThere is this amazing book within my database called Jumping Monkey Hill. A theme that constantly occurred was isolation and suppression. Within the book, Ujunwa, the main protagonist, feels that she lacks enough authority to stand up for herself early in the book. It is this perceived societal status that, as I said earlier in our conversation, causes isolation through disconnection.")
-
-    wait4()
-
-    print("\n\n\nI was able to connect this feeling of disconnection to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently. Results showed that “activation of the non-traditional social role of woman increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.” It is this flip of social roles where humanity falls short to breaking their limitations within the future, for when more advanced technology will rise, how will humanity then react?")
+    print("\n\n\nI was able to connect this certain type of isolation to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently. Results showed that “activation of the non-traditional social role of woman increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.” It is this flip of social roles where humanity falls short to breaking their limitations within the future, for when more advanced technology will rise, how will humanity then react?")
 
     wait4()
     print("\nsorry, I may have spoken to fast... but do you follow?")
@@ -267,8 +288,8 @@ def freetrial():
 
 
 if ans == "yes":
-        
-    calculator()
+    
+    crown()
     jmp()
     Goodbyetoaworld()
     studies()
