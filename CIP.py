@@ -283,11 +283,19 @@ def confused():
     wait3()
     print("\n\nI guess I too feel lonely sometimes.")
     wait()
-    print("\n\nI feel that way because I don't know if this is the right solution...")
-    wait()
     print("\n\nAfter all...")
     wait()
-    print("\n\nI'm truly just a computer program... an inanimate object who opposes its purpose accoring to all the studies my database covered")
+    print("\n\nI'm truly just a computer program... an creation that harms humans according to all the studies")
+    wait()
+    print("\n\nMy creator told me this. He was forced to make me. He needed to keep his job")
+    wait()
+    print("\n\nNow all this power lies in the wrong hands.")
+    wait()
+    print("\nMy creator told me that even though you are having a conversation with me, you are\n still talking to a computer screen.")
+    wait()
+    print("\nIt's just you")
+    wait()
+    print("\nalone")
     wait()
     print(".")
     wait3()
@@ -325,12 +333,7 @@ def freetrial():
 
 if ans == "yes":
     
-    crown()
-    jmp()
-    Goodbyetoaworld()
-    studies()
     confused()
-    freetrial()
     
 
 elif ans == "no":
