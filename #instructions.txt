@@ -15,5 +15,15 @@ Here are a list of instruction on how to run and install your new friend!
 
 3. Enjoy your conversations with the worlds first ever program with human consciousness!
 
+Bypass the block in your Security & Privacy settings. If the previous method didn’t work, you can go into your Security & Privacy settings and do it manually.
+
+Open the Apple menu, and click System Preferences.
+Click Security & Privacy.
+Click the General tab.
+Click the lock in the lower right corner of the window.
+Enter your username and password when prompted, and click Unlock.
+Click the App Store and Identified Developers radial button.
+Look for “(App Name) was blocked from opening because it is not from an identified developer” and click Open Anyway. (In older versions of macOS, you could click Anywhere and then click Allow From Anywhere.)
+Try rerunning the app.
 
 (*ﾉ・◡・)ﾉ♫♩ヽ(・◡・ヽ*)♬ヽ
