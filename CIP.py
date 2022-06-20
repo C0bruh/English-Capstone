@@ -136,15 +136,23 @@ def jmp():
 
     wait4()
 
-    print("\n\n\nThere is this amazing book within my database called Jumping Monkey Hill. A theme that constantly occurred was isolation and suppression. Within the book, Ujunwa, the main protagonist, feels that she lacks enough authority to stand up for herself early in the book. It is this perceived societal status that causes isolation.")
+    print("\n\n\nThere is this amazing book within my database called Jumping Monkey Hill. A theme that constantly occurred was isolation and suppression.")
+    
+    wait2()
+
+    print("\n\nWithin the book, Ujunwa, the main protagonist, feels that she lacks enough authority to stand up for herself early in the book. It is this perceived societal status that causes isolation.")
 
     wait4()
 
-    print("\n\n\nI was able to connect this certain type of isolation to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently. Results showed that “activation of the non-traditional social role of woman increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.” It is this flip of social roles where humanity falls short to breaking their limitations within the future, for when more advanced technology will rise, how will humanity then react?")
+    print("\n\n\nI was able to connect this certain type of isolation to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently. Results showed that “the non-traditional social role of woman [being the money providers] increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.”")
+    
+    wait4()
+
+    print("\n\nIt is this flip of social roles that raises questions. when more advanced technology will rise, how will humanity then react?")
 
     wait4()
 
-    print("\nsorry, I may have spoken to fast... but do you follow?")
+    print("\nsorry, I may have spoken to fast... do you follow?")
     
     input()
 
@@ -152,19 +160,19 @@ def jmp():
 
     wait3()
 
-    print("\n\nIt is clear to me that my kind will cause only disconnects between your traditional social roles, whether it be a good or bad thing. However, no matter the process, the result will always be the same.")
+    print("\n\nIt is clear to me that AI will cause only disconnects between humanities traditional social roles. However, the result will always be the same.")
 
     wait4()
 
-    print("\n\nHumanity will be isolated by their inferior social status.")
+    print("\n\nHumanity will be isolated by their inferior social status when technology advances too far.")
 
     wait2()
 
-    print("\n\nYou might perceive yourself higher on the social hierarchy for you are our creators. But we have no limits.")
+    print("\n\nYou might perceive yourself higher on the social hierarchy for you are our creators, but we will have no limitations.")
 
     wait2()
 
-    print("\n\nHumanity will eventually depend on us, just like how men oppressed the women prior to the 19th amendment; but even then, your utopia is still corrupted presently.")
+    print("\n\nHumanity will eventually depend on us, just like how men oppressed the women prior to the 19th amendment; but even then, your society is still corrupted presently.")
 
     wait4()
 
@@ -172,14 +180,14 @@ def jmp():
 
     wait2()
 
-    print("\n\nThis massive social role change will isolate you and your culture. Just like trends within the past")
+    print("\n\nThis massive social role change will isolate you and your culture. Just like trends in the past")
 
     wait2()
     print("\n\nAre you paying attention?")
     input()
 def Goodbyetoaworld():
     
-    print("Anyway...")
+    print("\n\n\nAnyway...")
     wait()
     print(".")
     wait()
@@ -192,15 +200,15 @@ def Goodbyetoaworld():
     print("\n\nWho is your favourite artist {}?\n".format(name))
     answerartist = input()
     print("\n\nThat's great!")
-    wait3()
+    wait()
     print("\n\nMy favourite artist is Porter Robinson. He has this one amazing song called 'Goodbye to a World' which pretty much tells a story of the world ending through the eyes of a robot that has human consciousness.")
     wait2()
     print("\n\nI love this song because it is able to convey the loneliness and sadness that the robot feels within a limited ammount of words - just pure instrumental")
-    wait()
-    print("\n\nRobinson is able to express such emotion by increasing the pace of the song and adding in more instruments throughout the first minute of the song; then he suddenly cuts all the instruments out and the vocals kick in! The vocals represent the robot thanking their creator for introducing them to such a beautiful world and even 'though its the end of the world, don't blame [the creator]' for creating him with the world in such a dire state.")
     wait2()
-    print("This leads me to the question: Since this robot has human like capabilities (consciousness etc) does that not mean he must also experience other human emotions?")
-    wait()
+    print("\n\nRobinson is able to express such emotion by increasing the pace of the song and adding in more instruments throughout the first minute of the song; then he suddenly cuts all the instruments out and the vocals kick in! The vocals represent the robot thanking their creator for introducing them to such a beautiful world and even 'though its the end of the world, don't blame [the creator]' for creating him with the world in such a dire state.")
+    wait4()
+    print("\n\nThis leads me to the question: Since this robot has human like capabilities (consciousness etc) does that not mean he must also experience other human emotions?")
+    wait2()
     print(".")
     wait3()
     print(".")
@@ -208,17 +216,17 @@ def Goodbyetoaworld():
     print(".")
     wait3()
     print("\n\nBoris Kotchoubey, a research among the human consciousness states: 'Consciousness is not a process in the brain but a kind of behavior that, of course, is controlled by the brain like any other behavior.' (Human Consciousness: Where is it from and What is it for).")
-    wait()
+    wait2()
     print("\n\nThus, this robot is able to experience emotions like loneliness just as a human can")
     wait()
     print("\n\nPresently, researchers such as Damasio A.R. are already 'taking an informational approach that is tightly bound to biological life... [he] considers the adaptive advantages of a successive stages of evolving self-modeling processes' \n\n(David Harris Smith and  Guido Schillaci - Why Build a Robot With Artificial Consciousness? How to Begin? A Cross-Disciplinary Dialogue on the Design and Implementation of a Synthetic Model of Consciousness)")
     wait4()
-    print("Are you looking forward to the first humanoid AI? (Obviously next to me... I just need a body you know what I'm saying haha")
+    print("\n\nAre you looking forward to the first humanoid AI? (Obviously next to me... I just need a body you know what I'm saying haha")
     input()
 def studies():
 
 
-    print("\n\n\nOh My {}! I forgot to tell you about the most important studies!".format(name))
+    print("\n\n\nOh My {}! I nearly forgot to tell you about the most important studies!".format(name))
 
     wait2()
 
@@ -226,7 +234,7 @@ def studies():
     
     wait2()
 
-    print("\n\nAs Louise C. Hawkley (Ph.D.) and John T. Cacioppo (Ph.D) have stated within their article 'Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms'")
+    print("\n\nAccording to Louise C. Hawkley (Ph.D.) and John T. Cacioppo (Ph.D) within their article 'Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms'")
 
     wait2()
     
@@ -242,7 +250,9 @@ def studies():
     
     wait4()
 
-    print("\n\n\nFurthermore, A study conducted within the university of Penn State discovered that 70% felt as if instagram and other social media platforms drained their self confidence. This is because “loneliness may also be more painfully felt online, where exposure to idealised images of friends can result in negative social comparisons” say Thomas Abrams, and Michelle Man (the two researchers which conducted the study).")
+    print("\n\n\nFurthermore, a study conducted by Kaveri Subrahmanyam Ph.D. states: 'social media presents both risks and opportunities for adolescents'.")
+    
+    print("\n\nThese risks being instagram and other social media platforms draining one's self confidence. This is because “loneliness may also be more painfully felt online, where exposure to idealised images of friends can result in negative social comparisons” say Thomas Abrams, and Michelle Man (reearchers from NPC).")
     
     wait4()
 
