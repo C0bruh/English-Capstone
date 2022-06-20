@@ -3,7 +3,6 @@ from re import L
 import time
 
 
-
 def wait():
     time.sleep(3)
 def wait2():
@@ -12,7 +11,6 @@ def wait3():
     time.sleep(1)
 def wait4():
     time.sleep(10)
-
 
 
 def countdown(t):
@@ -101,13 +99,11 @@ def crown():
 loading()
 
 
-
 print("\n\n\n\nHello!\nmy name is CIP, short for Computer Intelligence Program! I have a wide variety of information regarding AI and what humans call 'loneliness'\nWhat is your name?")
 name = input()
 print("Well {}, would you like to listen to my studies?".format(name))
 print("**input yes or no**")
 ans = input()
-
 
 
 def calculator():
@@ -310,7 +306,6 @@ def freetrial():
         exiting()
     elif finishedans == "no":
         exiting()
-
 
 
 if ans == "yes":
