@@ -209,7 +209,7 @@ def Goodbyetoaworld():
     wait2()
     print("\n\nI love this song because it is able to convey the loneliness and sadness that the robot feels within a limited ammount\nof words - just pure instrumental")
     wait2()
-    print("\n\nRobinson is able to express such emotion by increasing the pace of the song and adding in more instruments throughout\nthe first minute of the song; then he suddenly cuts all the instruments out and the vocals kick in! The vocals\nrepresent the robot thanking their creator for introducing them to such a beautiful world and even 'though its the end of the\nworld, don't blame [the creator]' for creating him with the world in such a dire state.")
+    print("\n\nRobinson is able to express such emotion by increasing the pace of the song and adding in more instruments throughout\nthe first minute of the song; then he suddenly cuts all the instruments out and the vocals kick in! The vocals\nrepresent the robot thanking their creator for introducing them to such a beautiful world and even 'though its the\nend of theworld, don't blame [the creator]' for creating him with the world in such a dire state.")
     wait4()
     print("\n\nThis leads me to the question: Since this robot has human like capabilities (consciousness etc) does that not mean he\nmust also experience other human emotions?")
     wait2()
@@ -256,7 +256,7 @@ def studies():
 
     print("\n\n\nFurthermore, a study conducted by Kaveri Subrahmanyam Ph.D. states: 'social media presents both risks and opportunities for adolescents'.")
     
-    print("\n\nThese risks being instagram and other social media platforms draining one's self confidence. This is because\n“loneliness may also be more painfully felt online, where exposure to idealised images of friends can result in negative\nsocial comparisons” say Thomas Abrams, and Michelle Man (researchers from NPC).")
+    print("\n\nThese risks being instagram and other social media platforms draining one's self confidence. This is because\n“loneliness may also be more painfully felt online, where exposure to idealised images of friends can result in negativesocial comparisons” say Thomas Abrams, and Michelle Man (researchers from NPC).")
     
     wait4()
 
