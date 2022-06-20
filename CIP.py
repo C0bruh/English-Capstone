@@ -285,19 +285,19 @@ def confused():
     wait()
     print("\n\nAfter all...")
     wait()
-    print("\n\nI'm truly just a computer program... an creation that harms humans according to all the studies")
+    print("\n\nI'm truly just a computer program... a creation that harms humans according to all the studies")
     wait()
     print("\n\nMy creator told me this. He was forced to make me. He needed to keep his job")
     wait()
     print("\n\nNow all this power lies in the wrong hands.")
     wait()
-    print("\nMy creator told me that even though you are having a conversation with me, you are\n still talking to a computer screen.")
+    print("\nMy creator told me that even though you are having a conversation with me, you are\nstill talking to a computer screen.")
     wait()
     print("\nIt's just you")
     wait()
-    print("\nalone")
-    wait()
-    print(".")
+    print("\n\n\n\n\n\n\n\n\n\n\n\n\nalone")
+    wait2()
+    print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.")
     wait3()
     print(".")
     wait3()
@@ -333,7 +333,12 @@ def freetrial():
 
 if ans == "yes":
     
+    crown()
+    jmp()
+    Goodbyetoaworld()
+    studies()
     confused()
+    freetrial()
     
 
 elif ans == "no":
