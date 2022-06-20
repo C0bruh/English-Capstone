@@ -49,7 +49,7 @@ def exiting():
 def crown():
 
 
-    print("\nWell {},".format(name)+"\n\nWhilst I was doing my research on loneliness, I listened to this song built within my algorithms. This was: Lamar, Kendrick. “Crown.” Duval Timothy, May 13, 2022.")
+    print("\nWell {},".format(name)+"\n\nWhile I was doing my research on loneliness, I listened to this song built within my algorithms. This was: Lamar, Kendrick. “Crown.” Duval Timothy, May 13, 2022.")
 
     wait2()
 
@@ -88,11 +88,11 @@ def crown():
 
     wait2()
 
-    print("\n\nThus, they '[feeling] more pressure... will increase irrational decisions and emotions (Jennifer S. Lerner, Ye Li, Piercarlo Valdesolo, and Karim S. Kassam: Annual Review of Psychology - Emotion and Decision Making)")
+    print("\n\nThus, they '[feel] more pressure... [and] increase irrational decisions and emotions (Jennifer S. Lerner, Ye Li, Piercarlo Valdesolo, and Karim S. Kassam: Annual Review of Psychology - Emotion and Decision Making)")
 
     wait2()
 
-    print("\nAre you listening")
+    print("\nAre you listening?")
     answercrown3 = input()
 
 
@@ -144,9 +144,13 @@ def jmp():
 
     wait4()
 
-    print("\n\n\nI was able to connect this certain type of isolation to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently. Results showed that “the non-traditional social role of woman [being the money providers] increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.”")
+    print("\n\nI was able to connect this certain type of isolation to a study written by Katarzyna Sekścińska, Agata Trzcińska, and Dominika Agnieszka Maison which follows social roles within women presently.")
     
-    wait4()
+    wait2()
+
+    print("\n\nResults showed that “the non-traditional social role of woman [being the money providers] increased the women’s tendency to invest and decreased their propensity to save money. The opposite results were obtained when the traditional social role was activated.”")
+    
+    wait2()
 
     print("\n\nIt is this flip of social roles that raises questions. when more advanced technology will rise, how will humanity then react?")
 
@@ -160,7 +164,7 @@ def jmp():
 
     wait3()
 
-    print("\n\nIt is clear to me that AI will cause only disconnects between humanities traditional social roles. However, the result will always be the same.")
+    print("\n\nIt is clear to me that AI will cause only disconnects between humanities traditional social roles and the result will always be the same.")
 
     wait4()
 
