@@ -48,11 +48,11 @@
    'E:\\Users\\TNat\\Desktop\\,\\school\\english\\English '
    'Project\\English-Capstone\\CIP.py',
    'PYSOURCE'),
-  ('python310.dll',
-   'C:\\Users\\TNat\\AppData\\Local\\Programs\\Python\\Python310\\python310.dll',
-   'BINARY'),
   ('VCRUNTIME140.dll',
    'C:\\Users\\TNat\\AppData\\Local\\Programs\\Python\\Python310\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python310.dll',
+   'C:\\Users\\TNat\\AppData\\Local\\Programs\\Python\\Python310\\python310.dll',
    'BINARY'),
   ('select',
    'C:\\Users\\TNat\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\select.pyd',
@@ -85,7 +85,7 @@
  [],
  False,
  False,
- 1655712245,
+ 1655742146,
  [('run.exe',
    'C:\\Users\\TNat\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
